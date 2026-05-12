@@ -1,0 +1,56 @@
+<svg width="1200" height="260" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5fa"/>
+      <stop offset="100%" stop-color="#ffe4ef"/>
+    </linearGradient>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="10"
+      flood-color="#ff69b4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect x="20"
+        y="20"
+        width="1160"
+        height="220"
+        rx="30"
+        fill="url(#card)"
+        filter="url(#shadow)"/>
+
+  <text x="70"
+        y="95"
+        font-size="42"
+        fill="#FF1493"
+        font-family="Verdana"
+        font-weight="bold">
+        ✨ Alessandro Barros
+  </text>
+
+  <text x="70"
+        y="145"
+        font-size="24"
+        fill="#444"
+        font-family="Verdana">
+        🛡️ Full Stack Software Developer
+  </text>
+
+  <text x="70"
+        y="185"
+        font-size="22"
+        fill="#666"
+        font-family="Verdana">
+        🌍 Teresina, Brazil — Planet Popstar
+  </text>
+
+  <text x="70"
+        y="225"
+        font-size="18"
+        fill="#777"
+        font-family="Verdana">
+        Focused on backend engineering, clean architecture and high-performance systems.
+  </text>
+
+</svg>

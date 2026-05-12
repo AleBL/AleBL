@@ -18,7 +18,7 @@ jobs:
       contents: write
 
     steps:
-      - name: 🌟 Generate Isometric Calendar
+      - name: Generate Isometric Calendar
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -30,7 +30,19 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-      - name: 🏆 Generate Achievements
+      - name: Generate Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.classic.svg
+
+          user: AleBL
+          template: classic
+          base: header, repositories
+          plugin_lines: yes
+          plugin_introduction: yes
+
+      - name: Generate Achievements
         uses: stalomeow/metrics@projects-v2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -39,4 +51,3 @@ jobs:
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_threshold: X
