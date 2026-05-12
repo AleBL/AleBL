@@ -77,23 +77,7 @@
 
 ---
 
-# ⭐ Star Coins & Stats
-
-<p align="center">
-  <img src="./assets/kirby-warpstar.gif" width="150">
-</p>
-
-<p align="center">
-  <img height="180em"
-    src="https://github-readme-stats.vercel.app/api?username=AleBL&show_icons=true&theme=rose&hide_border=true&title_color=FF69B4&icon_color=FF1493"/>
-
-  <img height="180em"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AleBL&layout=compact&theme=rose&hide_border=true&title_color=FF69B4"/>
-</p>
-
----
-
-# 🍅 Contributions
+# ⭐ Contributions
 
 <p align="center">
   <picture>
@@ -106,11 +90,15 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AleBL/AleBL/main/metrics.plugin.isocalendar.svg">
+  <img src="https://raw.githubusercontent.com/AleBL/AleBL/main/metrics.classic.svg" style="width: 100%">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AleBL/AleBL/main/metrics.plugin.achievements.svg">
+  <img src="https://raw.githubusercontent.com/AleBL/AleBL/main/metrics.plugin.isocalendar.svg" style="width: 100%">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AleBL/AleBL/main/metrics.plugin.achievements.svg" style="width: 100%">
 </p>
 
 ---

@@ -7,7 +7,7 @@
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="420" fill="#fffafd"/>
+  <rect width="1200" height="420" fill="transparent"/>
 
   <text
     x="600"
